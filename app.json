@@ -25,7 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-	  "bundleIdentifier": "com.hcrhs.LavatoryManagerApp"
+	  "bundleIdentifier": "com.hcrhs.LavatoryManagerApp",
+	  "buildNumber": "1.0.0"
     }
   }
 }
