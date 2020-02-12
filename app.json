@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "My First Project",
-    "slug": "MyFirstProject",
+    "name": "Lavatory App",
+    "slug": "LavatoryApp",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
