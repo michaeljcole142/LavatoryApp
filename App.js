@@ -15,7 +15,7 @@ var styles = StyleSheet.create({
 	},
     midSection: {
         flex: 4,
-        backgroundColor: '#FF3366'
+        backgroundColor: '#efefef'
     },
     bottomSection: {
         flex: 1,

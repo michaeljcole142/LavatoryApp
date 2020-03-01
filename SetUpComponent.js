@@ -59,7 +59,7 @@ console.log("In setup constructor");
 			lav: "", 
 			server : "", 
 			port:  "",
-			data: [ "TestLav1", "TestLav2", "TestLav3"] 
+			data: [ "No Lavatory List"] 
 		}
 		this.handleServerChange = this.handleServerChange.bind(this);
 		this.handlePortChange = this.handlePortChange.bind(this);
@@ -212,7 +212,7 @@ console.log("server->", this.state.server, " port->", this.state.port);
 					/>
 				</View>
 				<View style={{ flex: 1, flexDirection: 'row'}}  >
-					<Button title="testserver"   onPress={ ()=> { var x = this.getLavListFromServer(); console.log("button pressed",x) }}/>
+					<Button title="Get Lavatory List"   onPress={ ()=> { var x = this.getLavListFromServer(); console.log("button pressed",x) }}/>
 				</View>
 				<View style={{flex:1, flexDirection:'row'}}>
 					<Text style={setUpStyles.labelStyle}>Lavatory: </Text>
